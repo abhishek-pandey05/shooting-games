@@ -1,0 +1,61 @@
+
+.screen {
+  margin-top: 0%;
+}
+
+.pad {
+    box-sizing: border-box;
+      font-size: 45px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  }
+  
+  .fixed {
+      position: fixed;
+  }
+  
+  .text-white {
+      color: white;
+  }
+  
+  .items-center {
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .button {
+    padding: 11%;
+      background-color: #5f0000;
+      color: white;
+      border-radius: 24px;
+      font-size: 39px;
+      font-weight: bold;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+  }
+  
+  .button:hover {
+      background-color: darkblue;
+      cursor: pointer;
+  }
+  
+  .popup {
+    width: 28vw;
+      background-color: white;
+    padding: 12%;
+      border-radius: 10px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      top: 65%;
+      left: 39%;
+    margin-left: -14vw;
+    margin-top: -86vh;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  }
